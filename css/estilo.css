@@ -1,0 +1,123 @@
+body {
+	font-family: sans-serif;
+	margin: auto;
+}
+
+header {
+	background-color: orange;
+	padding: 10px;
+	margin: 0px auto;
+	height: 180px;
+}
+
+#title {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	font-size: 1.7em;
+}
+
+#inline1 {
+	color: black;
+}
+
+#inline2 {
+	color:  white;
+}
+
+nav {
+	margin: 0px auto;
+	padding: 0px;
+	text-align: center;
+}
+
+nav > a {
+	margin: 0px 5px;
+	padding: 5px;
+	color: white;
+	text-decoration: none;
+	font-weight	: bold;
+	font-size: 1.3em;
+}
+
+nav > a:hover {
+	background-color: white;
+	color:  orange;
+}
+
+main {
+	text-align: justify;
+	width: 920px;
+	margin: 0 auto;
+}
+
+article {
+	float: left;
+	width: 650px;
+}
+
+article > h1 {
+	color: orange;
+	padding: 0px;
+	margin: 0px;
+}
+
+article > section {
+	margin: 0px 0px 10px 0px;
+}
+
+article > a {
+	color: orange;
+	margin: 1px auto;
+}
+
+article > p {
+	margin: 5px;
+}
+
+footer {
+	clear: both;
+	background-color: lightgray;
+	text-align: center;
+	padding: 3px;
+	margin: 10px 160px;
+}
+
+#fixo {
+	position: fixed;
+	right: 0px;
+	bottom: 20px;
+	background-color: gray;
+	padding: 5px;
+	font-weight: 0.1em;
+}
+
+section > h4 {
+	font-weight: 0.1em;
+	color: orange;
+	font-size: 0.1;
+	margin: 0px;
+	padding: 0px;
+}
+
+section > p {
+	font-weight: px;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+#area-lateral {
+	float: right;
+	width: 240px;
+}
+
+#area-lateral > h3 {
+	background-color: lightgray;
+	padding: 5px;
+}
+
+#area-lateral > p {
+	color: black;
+	font-size: 0.5 em;
+}
